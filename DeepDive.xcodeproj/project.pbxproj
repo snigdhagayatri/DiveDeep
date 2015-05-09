@@ -13,6 +13,9 @@
 		F2827B581AA1B10D00B93C5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2827B571AA1B10D00B93C5B /* Images.xcassets */; };
 		F2827B5B1AA1B10D00B93C5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2827B591AA1B10D00B93C5B /* LaunchScreen.xib */; };
 		F2827B671AA1B10D00B93C5B /* DeepDiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2827B661AA1B10D00B93C5B /* DeepDiveTests.swift */; };
+		F2827B711AA1BAB400B93C5B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2827B701AA1BAB400B93C5B /* CustomCell.swift */; };
+		F2827B771AA1C02C00B93C5B /* Certificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2827B761AA1C02C00B93C5B /* Certificates.swift */; };
+		F28908A31AA210700009A14B /* viewController1.json in Resources */ = {isa = PBXBuildFile; fileRef = F28908A21AA210700009A14B /* viewController1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		F2827B601AA1B10D00B93C5B /* DeepDiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2827B651AA1B10D00B93C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2827B661AA1B10D00B93C5B /* DeepDiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDiveTests.swift; sourceTree = "<group>"; };
+		F2827B701AA1BAB400B93C5B /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
+		F2827B761AA1C02C00B93C5B /* Certificates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certificates.swift; sourceTree = "<group>"; };
+		F28908A21AA210700009A14B /* viewController1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = viewController1.json; path = ../viewController1.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				F2827B501AA1B10D00B93C5B /* AppDelegate.swift */,
+				F28908A21AA210700009A14B /* viewController1.json */,
 				F2827B521AA1B10D00B93C5B /* ViewController.swift */,
+				F2827B761AA1C02C00B93C5B /* Certificates.swift */,
+				F2827B701AA1BAB400B93C5B /* CustomCell.swift */,
 				F2827B541AA1B10D00B93C5B /* Main.storyboard */,
 				F2827B571AA1B10D00B93C5B /* Images.xcassets */,
 				F2827B591AA1B10D00B93C5B /* LaunchScreen.xib */,
@@ -194,6 +203,7 @@
 			files = (
 				F2827B561AA1B10D00B93C5B /* Main.storyboard in Resources */,
 				F2827B5B1AA1B10D00B93C5B /* LaunchScreen.xib in Resources */,
+				F28908A31AA210700009A14B /* viewController1.json in Resources */,
 				F2827B581AA1B10D00B93C5B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2827B531AA1B10D00B93C5B /* ViewController.swift in Sources */,
+				F2827B711AA1BAB400B93C5B /* CustomCell.swift in Sources */,
 				F2827B511AA1B10D00B93C5B /* AppDelegate.swift in Sources */,
+				F2827B771AA1C02C00B93C5B /* Certificates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				F2827B6C1AA1B10D00B93C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2827B6D1AA1B10D00B93C5B /* Build configuration list for PBXNativeTarget "DeepDiveTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				F2827B6F1AA1B10D00B93C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

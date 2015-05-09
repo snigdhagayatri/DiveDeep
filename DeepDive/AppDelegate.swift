@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DeepDive
 //
-//  Created by Pranav Prakash on 28/02/15.
+//  Created by DeepDive on 28/02/15.
 //  Copyright (c) 2015 CrazyNerds. All rights reserved.
 //
 
